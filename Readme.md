@@ -33,3 +33,13 @@ public void ClearScreen(){
 Toolkit.getDefaultToolkit().beep();
 
 ```
+
+# javascript
+
+## adding vibration to devices in mobile view
+
+```javascript
+const vibrate = () => {
+    navigator.vibrate(50);                  // short burst
+}
+```
